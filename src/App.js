@@ -5,7 +5,7 @@ import User from "./userData.json";
 
 function App() {
   const temp = User.filter(user => user.index === 3);
-  console.log(temp);
+  // console.log(temp);
   return (
     <div className="container">
     <div className="App">
